@@ -1,0 +1,18 @@
+body {
+    background-color: green;
+}
+.bg-box{
+    background-image: url("./lamp-png-34914.png"), 
+        url("./green-png-44873.png"),
+        url("https://vignette.wikia.nocookie.net/mashaandthebear/images/e/e0/Ёжик.png/revision/latest?cb=20180209130328&path-prefix=ru"),
+        url("https://avatanplus.com/files/resources/mid/58eb07b830eab15b56162788.png"),
+        url("​https://img2.goodfon.ru/wallpaper/big/0/5b/pole-zelen-trava-dom-derevya.jpg");
+
+
+    width:100vw;
+    height: 1000px;
+    background-size: 100px 100px, 100px 100px, 100px 100px, 100px 100px, cover;
+    background-repeat: repeat-x, repeat-x, repeat-y, repeat-y; 
+    background-position: top, bottom, left, right;
+
+}   
